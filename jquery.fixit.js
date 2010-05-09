@@ -1,6 +1,6 @@
 /*
  * jQuery FixIt! 0.1
- * Copyright (c) 20010 Pierre Bertet (pierrebertet.net)
+ * Copyright (c) 2010 Pierre Bertet (pierrebertet.net)
  * Licensed under the MIT (MIT-LICENSE.txt)
 */
 ;(function($){
@@ -27,7 +27,7 @@
       
       // Local variables
       fixitElts[eltPos]
-         // .data("fixit/settings", settings)
+          //.data("fixit/settings", settings)
           .data("fixit/height", fixitElts[eltPos].outerHeight())
           .data("fixit/def_width", fixitElts[eltPos].css("width"))
           .data("fixit/def_offset", fixitElts[eltPos].offset())
